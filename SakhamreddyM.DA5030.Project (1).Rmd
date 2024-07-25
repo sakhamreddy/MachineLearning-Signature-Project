@@ -5,7 +5,8 @@ output:
   html_notebook: default
 ---
 
-
+#Required packages
+```{r,warning=FALSE,message=FALSE}
 #Imported required packages to perform the project
 library(corrplot)
 library(magrittr)
@@ -27,7 +28,7 @@ library(plotly)
 library(cvms)
 library(ipred)
 library(caretEnsemble)
-
+```
 #Data Acquisition
 ```{r}
 #Data imported from the local folder and read it using read.csv function and
