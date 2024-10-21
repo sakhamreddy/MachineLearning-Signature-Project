@@ -39,7 +39,7 @@ Step-by-step guide to set up the project locally.
 
 ```bash
 # Clone the repository
-git clone https://github.com/sakhamreddy/.git
+git clone https://github.com/username/repository.git
 
 # Navigate to the project directory
 cd repository
@@ -49,25 +49,53 @@ Rscript -e 'install.packages(c("corrplot", "magrittr", "dplyr", "ggcorrplot", "p
 ```
 
 ## Usage
-To run the project, use the provided R scripts. The analysis involves data preprocessing, exploratory data analysis, feature engineering, and model building.
+To run the project, use the provided R scripts. The analysis involves the following steps:
+
+### 1. Data Preprocessing
+Data preprocessing includes importing the SEER dataset, handling missing values, removing duplicate columns, and transforming variables for better analysis. This step ensures that the data is clean and ready for exploratory analysis.
 
 ```r
-# Example usage
-source("SEER_Breast_Cancer_Analysis.R")
+# Example usage for data preprocessing
+source("data_preprocessing.R")
 ```
 
-Include visualizations, such as histograms and bar plots, to better understand the relationships between the variables and the target feature.
+### 2. Exploratory Data Analysis (EDA)
+EDA is used to better understand the relationships between different features and the target variable. Techniques like histograms, bar plots, and correlation plots are used to visualize the data.
+
+```r
+# Example usage for exploratory data analysis
+source("exploratory_data_analysis.R")
+```
+
+### 3. Feature Engineering
+Feature engineering is used to create new features or transform existing features to improve model performance. This includes standardization, dummy encoding, and applying principal component analysis (PCA).
+
+```r
+# Example usage for feature engineering
+source("feature_engineering.R")
+```
+
+### 4. Model Building and Evaluation
+In this step, various machine learning models are built, trained, and evaluated. Models include Support Vector Machines, Decision Trees, Logistic Regression, Random Forests, and Ensemble Learning approaches.
+
+```r
+# Example usage for model building and evaluation
+source("model_building.R")
+```
+
+### 5. Ensemble Learning with Bagging and Majority Voting
+In this step, bagging, boosting, and majority voting ensemble techniques are applied to improve model accuracy.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 **Manikantareddy Sakhamreddy**  
-Email: [your-email@example.com](mailto:your-email@example.com)  
-GitHub: [username](https://github.com/username)
+Email: [manikantasakham09@gmail.com](mailto:manikantasakham09@gmail.com)  
+GitHub: [sakhamreddy](https://github.com/sakhamreddy)
 
 ## Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -76,11 +104,8 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a Pull Request
 
 ## Acknowledgments
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
 - Special thanks to the SEER Breast Cancer Dataset contributors and IEEE DataPort.
 - References:
   - Rabiei, R. et al. (2022). *Prediction of breast cancer using machine learning approaches*. Journal of Biomedical Physics & Engineering.
   - Nasser, M. & Yusof, U. K. (2023). *Deep learning-based methods for breast cancer diagnosis*. Diagnostics (Basel).
   - Alzu’bi, A. et al. (2021). *Predicting the recurrence of breast cancer using machine learning algorithms*. Multimedia Tools and Applications.
-
