@@ -39,7 +39,7 @@ Step-by-step guide to set up the project locally.
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/repository.git
+git clone https://github.com/sakhamreddy/Machine-Learning-Signature-Project.git
 
 # Navigate to the project directory
 cd repository
