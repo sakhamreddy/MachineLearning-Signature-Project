@@ -106,6 +106,7 @@ Any contributions you make are **greatly appreciated**.
 ## Acknowledgments
 - Special thanks to the SEER Breast Cancer Dataset contributors and IEEE DataPort.
 - References:
-  - Rabiei, R. et al. (2022). *Prediction of breast cancer using machine learning approaches*. Journal of Biomedical Physics & Engineering.
-  - Nasser, M. & Yusof, U. K. (2023). *Deep learning-based methods for breast cancer diagnosis*. Diagnostics (Basel).
-  - Alzu’bi, A. et al. (2021). *Predicting the recurrence of breast cancer using machine learning algorithms*. Multimedia Tools and Applications.
+  - Rabiei R;Ayyoubzadeh SM;Sohrabei S;Esmaeili M;Atashi A; (n.d.). Prediction of breast cancer using machine learning approaches. Journal of biomedical physics & engineering. https://pubmed.ncbi.nlm.nih.gov/35698545/ 
+  - Nasser, M., & Yusof, U. K. (2023, January 3). Deep learning based methods for breast cancer diagnosis: A systematic review and future direction. MDPI. https://www.mdpi.com/2075-4418/13/1/161 
+  - Alzu&rsquo;bi, A., Najadat, H., Doulat, W., Al-Shari, O., & Zhou, L. (2021, January 18). Predicting the recurrence of breast cancer using machine learning algorithms - multimedia tools and applications. SpringerLink. https://link.springer.com/article/10.1007/s11042-020-10448-w
+  
