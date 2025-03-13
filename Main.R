@@ -1,5 +1,6 @@
 ---
-title: "Signature Project"
+title: "Machine Learning Signature Project"
+author: "Manikanta Reddy Sakhamreddy"
 output:
   pdf_document: default
   html_notebook: default
